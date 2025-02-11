@@ -1,0 +1,13 @@
+﻿CREATE TABLE [dbo].[Recettes]
+(
+	[Recette_Id] UNIQUEIDENTIFIER NOT NULL DEFAULT NEWID(),
+	[Titre] NVARCHAR(64) NOT NULL,
+	[Description] NVARCHAR(512),
+	[Instructions] NVARCHAR(MAX) NOT NULL,
+	[CreatedAt] DATETIME2 NOT NULL DEFAULT GETDATE(),
+	[CreatedBy] UNIQUEIDENTIFIER,
+	CONSTRAINT [PK_Recette] PRIMARY KEY ([Recette_Id]),
+	CONSTRAINT [FK_Recette_User] FOREIGN KEY ([CreatedBy])
+	REFERENCES [User] ([User_Id])
+	ON DELETE SET NULL
+)

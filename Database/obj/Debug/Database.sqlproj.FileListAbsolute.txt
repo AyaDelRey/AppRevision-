@@ -1,0 +1,10 @@
+C:\Users\m.chanu\source\repos\RevisionApp\Database\bin\Debug\Database.dacpac
+C:\Users\m.chanu\source\repos\RevisionApp\Database\bin\Debug\Database.dll
+C:\Users\m.chanu\source\repos\RevisionApp\Database\bin\Debug\Database.pdb
+C:\Users\m.chanu\source\repos\RevisionApp\Database\obj\Debug\Database.sqlproj.AssemblyReference.cache
+C:\Users\m.chanu\source\repos\RevisionApp\Database\obj\Debug\Database.dll
+C:\Users\m.chanu\source\repos\RevisionApp\Database\obj\Debug\Database.pdb
+C:\Users\m.chanu\source\repos\RevisionApp\Database\obj\Debug\Model.xml
+C:\Users\m.chanu\source\repos\RevisionApp\Database\obj\Debug\refactor.xml
+C:\Users\m.chanu\source\repos\RevisionApp\Database\obj\Debug\postdeploy.sql
+C:\Users\m.chanu\source\repos\RevisionApp\Database\obj\Debug\predeploy.sql

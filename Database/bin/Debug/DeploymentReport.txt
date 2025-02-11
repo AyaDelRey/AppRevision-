@@ -1,0 +1,41 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Comment] (Table)
+       [dbo].[Recettes] (Table)
+       [dbo].[User] (Table)
+       Default Constraint: unnamed constraint on [dbo].[Comment] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Comment] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Recettes] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[Recettes] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[User] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[User] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[User] (Default Constraint)
+       [dbo].[FK_Comment_User] (Foreign Key)
+       [dbo].[FK_Comment_Recette] (Foreign Key)
+       [dbo].[FK_Recette_User] (Foreign Key)
+       [dbo].[CK_Comment_Note] (Check Constraint)
+       [dbo].[SF_SaltAndHash] (Function)
+       [dbo].[SP_Recette_Delete] (Procedure)
+       [dbo].[SP_Recette_GetAll] (Procedure)
+       [dbo].[SP_Recette_GetById] (Procedure)
+       [dbo].[SP_Recette_GetByUserId] (Procedure)
+       [dbo].[SP_Recette_Insert] (Procedure)
+       [dbo].[SP_Recette_Update] (Procedure)
+       [dbo].[SP_User_CheckPassword] (Procedure)
+       [dbo].[SP_User_Delete] (Procedure)
+       [dbo].[SP_User_GetAll] (Procedure)
+       [dbo].[SP_User_GetById] (Procedure)
+       [dbo].[SP_User_Insert] (Procedure)
+       [dbo].[SP_User_Update] (Procedure)
+
+** Supporting actions
