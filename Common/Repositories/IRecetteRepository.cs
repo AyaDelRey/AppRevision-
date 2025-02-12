@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Common.Repositories
 {
-    internal class IRecetteRepository
+    public interface IRecetteRepository<TRecette> : ICRUDRepository<TRecette, Guid>
     {
+        IEnumerable<TRecette> GetFromUser(Guid user_id);
     }
 }

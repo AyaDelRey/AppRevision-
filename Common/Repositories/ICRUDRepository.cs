@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Common.Repositories
 {
-    internal class ICRUDRepository
+    public interface ICRUDRepository<TEntity, TId>
     {
+        IEnumerable<TEntity> Get();
+        TEntity Get(TId id);
+        TId Insert(TEntity entity);
+        void Update(TId id, TEntity entity);
+        void Delete(TId id);
     }
 }

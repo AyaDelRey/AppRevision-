@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ASP_MVC.Models.Recette.RecetteListItem>
+
+<p>
+    <a asp-action="Create" asp-controller="Recette">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Titre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", "Recette", new { id = item.Recette_Id }) |
+                    @Html.ActionLink("Details", "Details", "Recette", new { id = item.Recette_Id }) |
+                    @Html.ActionLink("Delete", "Delete", "Recette", new { id = item.Recette_Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

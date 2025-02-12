@@ -31,7 +31,14 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\m.chanu\\source\\repos\\RevisionApp\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\m.chanu\\source\\repos\\RevisionApp\\Common\\Common.csproj"
+              },
+              "C:\\Users\\m.chanu\\source\\repos\\RevisionApp\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\m.chanu\\source\\repos\\RevisionApp\\DAL\\DAL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -53,6 +60,10 @@
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Caching.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -133,6 +144,10 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
+            "Microsoft.Extensions.Caching.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[9.0.1, )"
@@ -212,6 +227,10 @@
               "target": "Package",
               "version": "[6.0.1, )"
             },
+            "Microsoft.Extensions.Caching.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[9.0.1, )"
@@ -272,6 +291,9 @@
               "C:\\Users\\m.chanu\\source\\repos\\RevisionApp\\BLL\\BLL.csproj": {
                 "projectPath": "C:\\Users\\m.chanu\\source\\repos\\RevisionApp\\BLL\\BLL.csproj"
               },
+              "C:\\Users\\m.chanu\\source\\repos\\RevisionApp\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\m.chanu\\source\\repos\\RevisionApp\\Common\\Common.csproj"
+              },
               "C:\\Users\\m.chanu\\source\\repos\\RevisionApp\\DAL\\DAL.csproj": {
                 "projectPath": "C:\\Users\\m.chanu\\source\\repos\\RevisionApp\\DAL\\DAL.csproj"
               }
@@ -311,6 +333,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "Microsoft.Extensions.Caching.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",

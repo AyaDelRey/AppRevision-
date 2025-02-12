@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Common.Repositories
 {
-    internal class IUserRepository
+    public interface IUserRepository<TUser> : ICRUDRepository<TUser, Guid>
     {
+        Guid CheckPassword(string email, string password);
     }
 }

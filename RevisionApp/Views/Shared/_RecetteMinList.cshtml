@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ASP_MVC.Models.Recette.RecetteListItemMin>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titre)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Count() > 0)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <a asp-action="Details" asp-controller="Recette" asp-route-id="@item.Recette_Id">@Html.DisplayFor(modelItem => item.Titre)</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td>
+                    <p>Pas de recette actuellement</p>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
